@@ -15,7 +15,7 @@ template <class T> class List {
     int count; // Số node
 public:
     List() : count(0){ }
-    ~List();//Hàm hủy
+    ~List(){};//Hàm hủy    // chưa định nghĩa func hủy 
 
     // Xóa toàn bộ list
     void RemoveAll(){
